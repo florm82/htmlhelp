@@ -1,6 +1,6 @@
-#Walrus-showing {
+#Nikki-showing {
   display: none;
-  color: red;
+  color: purple;
   font-size: Bold;
 }
 
@@ -15,4 +15,32 @@
 p {
   color: purple;
   font-weight: bold;
+}
+h1 {
+  background-color: purple;
+  color: white;
+  margin-left: : 0px;
+  margin-right: 0px;
+  padding: 30px;
+}
+#photo-showing {
+  display: none;
+  color: purple;
+  font-size: Bold;
+}
+#clickable1 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#clickable1:hover {
+  text-decoration: underline;
+}
+#clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#clickable2:hover {
+  text-decoration: underline;
 }
