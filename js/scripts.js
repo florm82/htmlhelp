@@ -10,7 +10,15 @@ $(document).ready(function() {
     alert("This is an image.");
   });
   $(".clickable").click(function() {
-    $("#Walrus-showing").slideToggle();
-    $("#Walrus-hidden").slideToggle();
+    $("#Nikki-showing").slideToggle();
+    $("#Nikki-hidden").slideToggle();
+  });
+  $("#clickable1").click(function() {
+    $("#photo-showing").fadeToggle();
+    $("#photo-hidden").fadeToggle();
+  });
+  $("#clickable2").click(function() {
+    $("#photo-showing").fadeToggle();
+    $("#photo-hidden").fadeToggle();
   });
 });
