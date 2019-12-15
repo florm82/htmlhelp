@@ -9,4 +9,8 @@ $(document).ready(function() {
   $("img").click(function() {
     alert("This is an image.");
   });
+  $(".clickable").click(function() {
+    $("#Walrus-showing").slideToggle();
+    $("#Walrus-hidden").slideToggle();
+  });
 });
