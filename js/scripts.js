@@ -21,4 +21,24 @@ $(document).ready(function() {
     $("#photo-showing").fadeToggle();
     $("#photo-hidden").fadeToggle();
   });
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
+  $("button#black").click(function() {
+    $("body").removeClass();
+    $("body").addClass("black-background");
+  });
+  $("button#black").click(function() {
+    $("p").removeClass();
+    $("p").addClass("white-font");
+  });
 });
