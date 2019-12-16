@@ -13,7 +13,7 @@
   text-decoration: underline;
 }
 p {
-  color: purple;
+  font: purple;
   font-weight: bold;
 }
 h1 {
@@ -57,5 +57,7 @@ h1 {
 }
 .black-background {
   background-color: black;
+}
+.white-font {
   font: white;
 }
