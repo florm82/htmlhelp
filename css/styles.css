@@ -44,3 +44,18 @@ h1 {
 #clickable2:hover {
   text-decoration: underline;
 }
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+.black-background {
+  background-color: black;
+  font: white;
+}
